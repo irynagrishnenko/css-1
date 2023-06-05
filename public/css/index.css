@@ -1,0 +1,145 @@
+/* Завдання 1 */
+:root {
+  background: white;
+}
+/* Завдання 2 */
+* {
+  color: black;
+}
+/* Завдання 3 */
+h1 {
+  background: blue;
+}
+/* Завдання 4 */
+.green {
+  color: green;
+}
+/* Завдання 5 */
+#blue {
+  color: blue;
+}
+/* Завдання 6 */
+div.box p {
+  background: red;
+}
+div.box div {
+  background: green;
+}
+/* Завдання 7 */
+.brown {
+  background: brown;
+  color: white;
+}
+/* Завдання 8 */
+ul > li {
+  background: red;
+}
+/* Завдання 9 */
+.header-button + * {
+  background: red;
+}
+/* Завдання 10 */
+.susid ~ p {
+  background: blue;
+  color: white;
+}
+/* Завдання 11 */
+.salo,
+#bread {
+  background: yellow;
+}
+/* Урок 2 */
+/* Завдання 1 */
+.first-task li:first-child {
+  color: white;
+}
+/* Завдання 2 */
+.second-task > ul:first-child > li:first-child {
+  color: yellow;
+}
+/* Завдання 3 */
+.third-task > ul:nth-child(2) > li:first-child {
+  background: yellow;
+}
+/* Завдання 4 */
+.four-task li:last-child {
+  background: yellow;
+}
+/* Завдання 5 */
+.five-task > ul:last-child > li:last-child {
+  color: white;
+}
+/* Завдання 6 */
+section div:only-child {
+  color: red;
+}
+/* Завдання 7 */
+div.seven-task > p:first-of-type {
+  background: red;
+}
+/* Завдання 8 */
+div.eight-task > p:last-of-type {
+  background: red;
+}
+/* Завдання 9 */
+div > p:only-of-type {
+  background: yellow;
+}
+/* Урок 3 */
+/* Завдання 1 */
+a[href] {
+  color: white;
+}
+/* Завдання 2 */
+li[value] {
+  color: yellow;
+}
+/* Завдання 3 */
+li[value='3'] {
+  background: red;
+}
+/* Завдання 4 */
+button[class~='primary'] {
+  background: blue;
+}
+/* Завдання 5 */
+button[class|='secondary'] {
+  background: red;
+}
+/* Завдання 6 */
+.lesson-three-task-six li[class^='b'] {
+  color: green;
+  background: white;
+}
+/* Завдання 7 */
+.lesson-three-task-seven li[class*='on'] {
+  color: green;
+  background: white;
+}
+/* Завдання 8 */
+span[class$='s'] {
+  background: white;
+  color: blue;
+}
+/* Завдання 9 */
+*::first-letter {
+  color: red;
+}
+/* Завдання 10 */
+p::first-line {
+  background: yellow;
+}
+/* Завдання 11 */
+input::placeholder {
+  background: red;
+}
+/* Завдання 12 */
+.lesson-three-task-twelve li::before {
+  content: '➤';
+  background: white;
+  /* Зробила білий фон щоб було видно символ */
+}
+/* Завдання 13 */
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
