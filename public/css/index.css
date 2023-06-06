@@ -70,7 +70,7 @@ ul > li {
   color: white;
 }
 /* Завдання 6 */
-section div:only-child {
+section .only-child-task div:only-child {
   color: red;
 }
 /* Завдання 7 */
@@ -82,7 +82,7 @@ div.eight-task > p:last-of-type {
   background: red;
 }
 /* Завдання 9 */
-div > p:only-of-type {
+.nine-task p:only-of-type {
   background: yellow;
 }
 /* Урок 3 */
@@ -91,7 +91,7 @@ a[href] {
   color: white;
 }
 /* Завдання 2 */
-li[value] {
+.lesson-three-task-two > li[value] {
   color: yellow;
 }
 /* Завдання 3 */
@@ -122,11 +122,11 @@ span[class$='s'] {
   color: blue;
 }
 /* Завдання 9 */
-*::first-letter {
+.lesson-three-task-nine > h2::first-letter {
   color: red;
 }
 /* Завдання 10 */
-p::first-line {
+.lesson-three-task-ten p::first-line {
   background: yellow;
 }
 /* Завдання 11 */
@@ -136,8 +136,6 @@ input::placeholder {
 /* Завдання 12 */
 .lesson-three-task-twelve li::before {
   content: '➤';
-  background: white;
-  /* Зробила білий фон щоб було видно символ */
 }
 /* Завдання 13 */
 .lesson-three-task-thirteen li::after {
